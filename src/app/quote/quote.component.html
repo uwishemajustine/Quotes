@@ -3,9 +3,11 @@
     <hr>
     <ul>
   <div *ngFor='let cake of quote; let i = index'>
-    <li>{{cake.quote}}</li>
-    <button (click)='quotesDetails(i)'>Quotes Details</button>
-    <app-quote-details *ngIf='quote.showDescription' [quote]='cake' (isComplete) = 'completeQuote($event,i)'></app-quote-details>
+              <li appAppearance>{{cake.quote}}</li>
+              <button  (click)='toggleDetails(i)'>Toggle Details</button>
+      
+          <app-quote-details *ngIf="quote.showDescription" [quote]='cake' (isComplete)= 'completeQuotes($event,i)'></app-quote-details>
+          
   </div>
 </ul>
 <p *ngIf='quote.length > 6'></p>
