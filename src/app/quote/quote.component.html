@@ -3,8 +3,8 @@
     <hr>
     <ul>
         <li *ngFor='let cake of quote'>
-            {{cake.quote}}
-        <app-goal-detail [cake]='quote'></app-goal-detail>
+            {{Quotes.quote}}
+        <app-cake-detail [quote]='quote'></app-cake-detail>
       </li>
     </ul>
   </div>
