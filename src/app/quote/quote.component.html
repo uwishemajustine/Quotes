@@ -2,10 +2,11 @@
     <h1>My Beatiful Quotes</h1>
     <hr>
     <ul>
-        <li *ngFor='let cake of quote'>
-            {{Quotes.quote}}
-        <app-cake-detail [quote]='quote'></app-cake-detail>
-      </li>
-    </ul>
+  <div *ngFor='let cake of quote; let i = index'>
+    <li>{{cake.quote}}</li>
+    <button (click)='quotesDetails(i)'>Quotes Details</button>
+    <app-quote-details *ngIf='quote.showDescription' [quote]='cake' (isComplete) = 'completeQuote($event,i)'></app-quote-details>
   </div>
+</ul>
+<p *ngIf='quote.length > 6'></p>
 <p>quote works!</p>

@@ -16,7 +16,14 @@ export class QuoteComponent implements OnInit {
     {id:6, quote: 'You just can’t beat the person who never gives up.', author:'Babe Ruth', publisher:'Jessica Valenti'},
     {id:7, quote: 'Work while they sleep. Learn while they party. Save while they spend. Live like they dream', author:'Syed Balkhi', publisher:'Neil Gaiman'},
     ];
-    
+    toggleDetails(index){
+      this.quote[index].showDescription = !this.quote[index].showDescription;
+    }
+    completeQuote(isComplete, index){
+      if (isComplete) {
+        this.quote.splice(index,1);
+      }
+    }
     constructor() { }
 
   ngOnInit() {
