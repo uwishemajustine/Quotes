@@ -1,0 +1,11 @@
+<div>
+    <h1>My Beatiful Quotes</h1>
+    <hr>
+    <ul>
+        <li *ngFor='let cake of quote'>
+            {{cake.quote}}
+        <app-goal-detail [cake]='quote'></app-goal-detail>
+      </li>
+    </ul>
+  </div>
+<p>quote works!</p>
