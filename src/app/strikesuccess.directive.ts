@@ -1,10 +1,10 @@
-// import { Directive } from '@angular/core';
+import { Directive } from '@angular/core';
 
-// @Directive({
-//   selector: '[appStrikesuccess]'
-// })
-// export class StrikesuccessDirective {
+@Directive({
+  selector: '[appStrikesuccess]'
+})
+export class StrikesuccessDirective {
 
-//   constructor() { }
+  constructor() { }
 
-// }
+}

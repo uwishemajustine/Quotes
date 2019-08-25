@@ -1,11 +1,17 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
-
+## Author
+by UWISHEMA Justine
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Technology Used
+* TypeScript
+* Html
+* Css
+* Javascript
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -25,4 +31,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# Quotes
+## Contact Information
+If you like my project and you want to use or add something on it please you can write to me in this email: alsenjastine@gmail.com
+## License
+MIT
+@copyright(c) 2019 Uwishema Justine
