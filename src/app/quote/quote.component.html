@@ -5,7 +5,7 @@
         <div class="col-md-12">
     
          <div *ngFor='let cake of quote; let i = index'>
-          <h4 id={{i}} appStrikesuccess>{{cake.quote}} {{cake.completeDate}} due on {{quote.completeDate|date|uppercase}}</h4>
+          <h4 appStrikesuccess>{{cake.quote}}</h4>
         <br>
          <button (click)='toggleQuotes(i)' class="btn btn-primary">Toggle Quotes</button>
 
@@ -19,5 +19,5 @@
    <div class="col-md-12">
     <app-myquote-form (addQuote)="addNewQuote($event)"></app-myquote-form>
   </div>
-    <p *ngIf='quote.length >3'>You have too many quotes</p> 
+    <p *ngIf='quote.length >3'></p> 
 </div>

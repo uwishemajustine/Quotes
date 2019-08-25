@@ -10,8 +10,8 @@
          
  <div class="row">
  <div class="col-md-2"> <button type="button" class="btn btn-info" (click)="downvoteshow()">Downvote</button></div>
-   <div class="col-md-2"><p *ngIf="downmvoteshow">{{downvotequote}}</p></div>
+   <div class="col-md-2"><p *ngIf="downvoteshow">{{downvotequote}}</p></div>
  </div>         
-    <p>This quote will be complete in {{quote.completeDate|dateCounting}} days ago</p>
+    <p>This quote was posted in {{quote.completeDate|dateCounting}} days ago</p>
   <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
 </div>

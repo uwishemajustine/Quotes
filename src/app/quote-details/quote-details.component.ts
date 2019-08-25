@@ -25,7 +25,7 @@ vote= true;
 
 voteshow(){
   this.vote = true;
-  return this.votequote = this.votequote +1;
+  return this.votequote = this.votequote + 1;
 }
 
 downvotequote = 0;
