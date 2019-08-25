@@ -1,18 +1,15 @@
 <div>
-    <h1>My Beatiful Quotes</h1>
-    <p>My motivation and life qoutes {{ quote.publisher}}</p>
+    <h1>My Beautiful quotes</h1>
+
     <hr>
     <ul>
-        <li *ngFor='let cake of quote'>
-            {{cake.quoter}}     
-           </li>
-          <br><br>
-          <!-- <button (click)='toggleDetails(i)'>Toggle Details</button> -->
-         
-          <!-- <app-quote-details *ngIf='quote.showDescription' [quotes]='cake' (isComplete) = 'completeQuote($event, i)'></app-quote-details> -->
-        <p><app-quote-details  [quotes]='quote'></app-quote-details></p>
-  
-
+      <li *ngFor='let cake of quote'>
+        {{cake.quote}}
+        <br><br>
+         <button (click)='toggleDetails(i)' class="btn btn-success">Toggle Details</button>
+    <app-quote-details *ngIf='quote.showDescription' [quote]='cake'></app-quote-details>
+       
+      </li>
     </ul>
-    <p *ngIf='quote.length' > </p>
-<p>quote works!</p>
+    <p *ngIf='quote.length > 6'></p> 
+  </div>
