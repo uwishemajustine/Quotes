@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { SuccessDirective } from './success.directive';
+import { DateCountingPipe } from './date-counting.pipe';
 
 
 
@@ -15,6 +16,7 @@ import { SuccessDirective } from './success.directive';
     QuoteComponent,
     QuoteDetailsComponent,
     SuccessDirective,
+    DateCountingPipe,
     
     
   ],
