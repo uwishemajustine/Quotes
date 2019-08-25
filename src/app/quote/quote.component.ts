@@ -18,7 +18,7 @@ export class QuoteComponent implements OnInit {
          new Quote (7, 'Work while they sleep. Learn while they party. Save while they spend. Live like they dream', 'Syed Balkhi', 'Neil Gaiman'),
           ];
           
-          toggleDetails(index){
+          toggleQuotes(index){
             this.quote[index].showDescription = !this.quote[index].showDescription;
           }
            completeQuote(isComplete, index){

@@ -6,7 +6,7 @@
       <li *ngFor='let cake of quote; let i = index'>
         {{cake.quote}}
         <br>
-         <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+         <button (click)='toggleQuotes(i)' class="btn btn-primary">Toggle Quotes</button>
     <app-quote-details *ngIf='cake.showDescription' [quote]='cake' (isComplete) = 'completeQuote($event,i)'></app-quote-details>
        
       </li>
