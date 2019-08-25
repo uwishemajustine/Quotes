@@ -15,9 +15,9 @@
         <div class="form-group">
   
             <label for="name">Publisher</label>
-            <input type="text"  class="form-control" id="publisher" [(ngModel)]="newQuote.publisher" name="publisher" #publisher='ngModel' required>
+            <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.publisher" name="publisher" #publisher='ngModel' required>
             <div [hidden]="name.valid || publisher.pristine" class="alert alert-danger">
-                    <p>Publisher is required</p>
+                    <p>Description is required</p>
                   </div>
         </div>
         <div class="form-group">
@@ -29,9 +29,9 @@
                 </div>
             </div>
         <div class="form-group">
-            <label for="complete">Completion <br></label>
-             <input type='date' id="complete">
-            <div [hidden]="completeDate.valid || completeDate.pristine" >
+            <label for="complete">Completion</label>
+            <input type='date' id="complete">
+            <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
             </div>
         </div>
         <button type="submit" class="btn btn-success">QUOTES</button>
