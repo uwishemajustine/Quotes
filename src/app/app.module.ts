@@ -8,6 +8,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DateCountingPipe } from './date-counting.pipe';
 import { MyquoteFormComponent } from './myquote-form/myquote-form.component';
+// import { QuizComponent } from './quiz/quiz.component';
 // import { StrikesuccessDirective } from './strikesuccess.directive';
 
 
@@ -19,6 +20,7 @@ import { MyquoteFormComponent } from './myquote-form/myquote-form.component';
     QuoteDetailsComponent,
     DateCountingPipe,
     MyquoteFormComponent,
+    // QuizComponent,
     // StrikesuccessDirective,
     
     

@@ -1,8 +1,17 @@
-<div>
+<div class="container">
 <p>
    Author: {{quote.author}}<br>
     Publisher: {{quote.publisher}}<br>
   </p>
-  <p>This quote will be complete in {{quote.completeDate|dateCounting}} days ago</p>
+  <div class="row">
+      <div class="col-md-2"><button type="button" class="btn btn-info" (click)='voteshow()'>Vote</button></div>
+      <div class="col-md-2"><p *ngIf="voteshow">{{votequote}}</p></div>
+ </div>
+         
+ <div class="row">
+ <div class="col-md-2"> <button type="button" class="btn btn-info" (click)="downvoteshow()">Downvote</button></div>
+   <div class="col-md-2"><p *ngIf="downmvoteshow">{{downvotequote}}</p></div>
+ </div>         
+    <p>This quote will be complete in {{quote.completeDate|dateCounting}} days ago</p>
   <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
 </div>
