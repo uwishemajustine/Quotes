@@ -2,7 +2,7 @@
     <h1>My Beautiful quotes</h1>
     <hr>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
     
          <div *ngFor='let cake of quote; let i = index'>
         
@@ -16,7 +16,9 @@
       </div>
     </div> 
     </div>
-   </div>
-
-    <p *ngIf='quote.length > 3'></p> 
   </div>
+   <div class="col-md-12">
+    <app-myquote-form (addQuote)="addNewQuote($event)"></app-myquote-form>
+  </div>
+    <p *ngIf='quote.length >3'>Your quotes exceds the the given number</p> 
+</div>
