@@ -4,7 +4,8 @@
     <hr>
     <ul>
       <li *ngFor='let cake of quote; let i = index'>
-        <li appsuccess>{{cake.quote}} due on {{quote.completeDate|date|uppercase}}</li>
+        {{cake.quote}}
+        {{cake.completeDate}}
         <br>
          <button (click)='toggleQuotes(i)' class="btn btn-primary">Toggle Quotes</button>
     <app-quote-details *ngIf='cake.showDescription' [quote]='cake' (isComplete) = 'completeQuote($event,i)'></app-quote-details>
