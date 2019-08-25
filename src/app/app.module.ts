@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DateCountingPipe } from './date-counting.pipe';
+import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 // import { StrikesuccessDirective } from './strikesuccess.directive';
 
 
@@ -16,6 +17,7 @@ import { DateCountingPipe } from './date-counting.pipe';
     QuoteComponent,
     QuoteDetailsComponent,
     DateCountingPipe,
+    QuotesFormComponent,
     // StrikesuccessDirective,
     
     
