@@ -6,7 +6,7 @@
         <div class="col-md-12">
     
          <div *ngFor='let cake of quote; let i = index'>
-          <h4 id={{i}} appStrikesuccess>{{cake.quote}} {{quote.author}}  {{quote.completeDate|date|uppercase}}</h4>
+          <h4 id={{i}} appStrikesuccess>{{cake.quote}}</h4>
         <br>
          <button (click)='toggleQuotes(i)' class="btn btn-primary">Toggle Quotes</button>
         

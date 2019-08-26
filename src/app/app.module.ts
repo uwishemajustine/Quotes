@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { DateCountingPipe } from './date-counting.pipe';
 import { MyquoteFormComponent } from './myquote-form/myquote-form.component';
 import { StrikesuccessDirective } from './strikesuccess.directive';
+import { DatecountingPipe } from './datecounting.pipe';
+
 
 
 
@@ -17,9 +18,10 @@ import { StrikesuccessDirective } from './strikesuccess.directive';
     AppComponent,
     QuoteComponent,
     QuoteDetailsComponent,
-    DateCountingPipe,
     MyquoteFormComponent,
     StrikesuccessDirective,
+    DatecountingPipe,
+   
     
     
   ],

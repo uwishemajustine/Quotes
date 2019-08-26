@@ -15,6 +15,6 @@
  <div class="col-md-2"> <button type="button" class="btn btn-info" (click)="downvoteshow()">Downvote</button></div>
    <div class="col-md-2"><p *ngIf="downvoteshow">{{downvotequote}}</p></div>
  </div><br>         
-    <p>This quote was posted in {{quote.completeDate|dateCounting}} days ago</p>
+    <p>This quote was posted in {{quote.completeDate|datecounting}} days ago</p>
   <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger"  style= "width:97px; height:40px;">Delete</button>
 </div>
