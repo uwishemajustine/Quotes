@@ -5,10 +5,3 @@ body{
     background-image:url("https://images.unsplash.com/photo-1522688306378-fbb315c6ba9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-size:cover;
 }
-tittle{
-    font-family: 'Franklin Gothic Medium';
-    font-size: 70px;
-}
-h1{
-    font-family: URW Chancery L, Medium Italic;
-}

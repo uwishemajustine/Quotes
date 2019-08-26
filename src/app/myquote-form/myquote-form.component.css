@@ -5,3 +5,7 @@ h2{
 .yes{
     font-size: 25px;
 }
+form{
+    box-sizing: border-box;
+    background: transparent; 
+}
