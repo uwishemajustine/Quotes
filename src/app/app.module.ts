@@ -20,8 +20,7 @@ import { DatecountingPipe } from './datecounting.pipe';
     QuoteDetailsComponent,
     MyquoteFormComponent,
     StrikesuccessDirective,
-    DatecountingPipe,
-   
+    DatecountingPipe
     
     
   ],

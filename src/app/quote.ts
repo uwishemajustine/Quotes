@@ -8,7 +8,7 @@ import { DateCountingPipe } from 'Quotes/src/app/date-counting.pipe';
 // }
 export class Quote {
   showDescription: boolean;
-  constructor(public id: number, public quote: string, public author: string, public publisher: string, public newDate: Date){
+  constructor(public id: number, public quote: string, public author: string, public publisher: string, public completeDate: Date){
     this.showDescription=false;
   }
 }
