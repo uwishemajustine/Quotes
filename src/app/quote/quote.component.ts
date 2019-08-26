@@ -35,7 +35,7 @@ export class QuoteComponent implements OnInit {
          addNewQuote(quote){
           let quoteLength = this.quote.length;
           quote.id = quoteLength+1;
-          quote.Date = new Date(quote.Date)
+          quote.Datecounter = new Date(quote.Datecounter)
           this.quote.push(quote)
         }
             constructor() {}

@@ -1,4 +1,4 @@
-import { DateCountingPipe } from 'Quotes/src/app/date-counting.pipe';
+
 
 // export class Quote {
 //   id: number;
@@ -12,3 +12,5 @@ export class Quote {
     this.showDescription=false;
   }
 }
+
+
