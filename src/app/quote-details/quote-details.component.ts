@@ -36,7 +36,7 @@ downvoteshow(){
   return this.downvotequote  = this.downvotequote + 1;
 }
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

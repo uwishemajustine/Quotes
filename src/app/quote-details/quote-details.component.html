@@ -2,6 +2,8 @@
 <p>
    Author: {{quote.author}}<br>
     Publisher: {{quote.publisher}}<br>
+    origindate: {{quote.completeDate|date : 'short'}}
+    
   </p>
   <div class="row">
       <div class="col-md-2"><button type="button" class="btn btn-info" (click)='voteshow()'>Vote</button></div>

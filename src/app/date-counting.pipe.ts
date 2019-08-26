@@ -17,7 +17,7 @@ export class DateCountingPipe implements PipeTransform {
     if (dateCounter >= 1 && value > todayWithNoTime){
       return dateCounter;
     }else{
-      return 20;
+      return dateCounter;
     }
   }
 }

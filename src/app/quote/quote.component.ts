@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
 
     quote:Quote []  = [
          new Quote (1, 'A man who dares to waste one hour of time has not discovered the value of life', 'Charles Darwin', 'William Shakespeare', new Date(2019/7/12)),
-         new Quote (2, 'My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style', 'Maya Angelou ', 'C. J. Cherryh', new Date(2019/2/22)),
+         new Quote (2, 'My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.', 'Maya Angelou ', 'C. J. Cherryh', new Date(2019/2/22)),
          new Quote (3, 'The most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.', 'Helen Keller', 'Robert Benchley', new Date(2019/5/10)),
          new Quote (4, 'Work while they sleep. Learn while they party. Save while they spend. Live like they dream', 'Syed Balkhi', 'Neil Gaiman', new Date(2019/5/21)),
           ];
