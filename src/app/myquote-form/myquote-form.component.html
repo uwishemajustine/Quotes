@@ -7,7 +7,7 @@
   
             <label for="name" class="yes">Author</label>
             <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
-            <div [hidden]="name.valid || author.pristine" class="alert alert-danger">
+            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
                     <p>Author is required</p>
                   </div>
         </div>
@@ -17,7 +17,7 @@
   
             <label for="name" class="yes">Publisher</label>
             <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.publisher" name="publisher" #publisher='ngModel' required>
-            <div [hidden]="name.valid || publisher.pristine" class="alert alert-danger">
+            <div [hidden]="publisher.valid || publisher.pristine" class="alert alert-danger">
                     <p>Publisher is required</p>
                   </div>
         </div>
@@ -25,14 +25,14 @@
   
                 <label for="quote" class="yes">Quotes</label>
                 <textarea class="form-control" id="quote" rows="6" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required></textarea>
-                <div [hidden]="name.valid || quote.pristine" class="alert alert-danger">
+                <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
                         <p>Quotes is required</p>
                 </div>
             </div>
         <div class="form-group">
             <label for="complete" class="yes">Completion</label>
             <input type='date' id="complete" required>
-            <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+            <div [hidden]="complete.valid || complete.pristine">
             </div>
         </div>
         <button type="submit" class="btn btn-success">QUOTES</button>
