@@ -33,7 +33,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 ## Contact Information
 If you like my project and you want to use or add something on it please you can write to me in this email: alsenjastine@gmail.com or
-git clone: " https://uwishemajustine.github.io/YesQuotes/ "
+git clone: " https://uwishemajustine.github.io/YesQuotes/."
 ## License
 MIT
 @copyright(c) 2019 Uwishema Justine
